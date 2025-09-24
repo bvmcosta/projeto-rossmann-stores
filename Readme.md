@@ -11,7 +11,7 @@
 
 <div style="text-align: justify">Este projeto de ciência de dados foi desenvolvido em 10 etapas. A primeira etapa consistiu de conversas com os gerentes das lojas para elaboração das principais hipóteses quanto ao fenômeno analisado (vendas diárias). Um mapa mental mostrando o fenômeno analisado com as principais entidades e seus atributos foi construído. </div><br>
 
-<p align = "center"><img src="img/mind_map.png" alt="" width="600" height="300"/></p>
+<p align = "center"><img src="img/mind_map.png" alt="" width="600" height="600"/></p>
 
 
 # Insights 
