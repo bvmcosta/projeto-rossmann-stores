@@ -9,15 +9,12 @@
 
 # Desenvolvimento
 
-<div style="text-align: justify">Este projeto de ciência de dados foi desenvolvido em 10 etapas. A primeira etapa consistiu de conversas com os gerentes das lojas para entendimento do problema de negócio e elaboração das principais hipóteses quanto ao fenômeno analisado (vendas diárias) (Figura 1). Um mapa mental mostrando o fenômeno analisado com as principais entidades e seus atributos foi construído. Os resultados apresentados no arquivo projeto_rossmann_final.ipynb fazem parte do primeiro ciclo de trabalho conforme proposto pelo método <em>Cross-Industry Standard Process for Data Science</em> (CRISP-DS) (Figura 2).</div><br>
+<div style="text-align: justify">Este projeto de ciência de dados foi desenvolvido em 10 etapas. A primeira etapa consistiu de conversas com os gerentes das lojas para entendimento do problema de negócio e elaboração das principais hipóteses quanto ao fenômeno analisado (vendas diárias) (Figura 1). Um mapa mental mostrando o fenômeno analisado com as principais entidades e seus atributos foi construído. Os resultados apresentados no arquivo projeto_rossmann_final.ipynb fazem parte do primeiro ciclo de trabalho conforme proposto pelo método <em>Cross-Industry Standard Process for Data Science</em> (CRISP-DS).</div><br>
 
 <p align = "center">Figura 1</p>
 <p align = "center"><img src="img/mind_map.png" alt="" width="600" height="600"/></p>
 
-<p align = "center">Figura 2</p>
-<p align = "center"><img src="img/mind_map.png" alt="" width="600" height="600"/></p>
-
-<div style="text-align: justify">As vendas diárias das lojas Rossmann não seguem uma distribuição normal porque há períodos em que as vendas são muito altas (Figura 3).</div><br>
+<div style="text-align: justify">As vendas diárias das lojas Rossmann não seguem uma distribuição normal porque há períodos em que as vendas são muito altas (Figura 2).</div><br>
 
 <p align = "center"><img src="img/sales_distribution.jpg" alt="" width="600" height="600"/></p>
 
@@ -37,7 +34,7 @@
 >>
 # Perspectivas
 >>
->><div style="text-align: justify"> Os novos ciclos de trabalho da equipe de cientistas de dados incluirão a variável 'customers' no algoritmo de aprendizado de machine learning visto que tem efeito importante sobre as vendas diárias. Um projeto específico para previsão de quantidade de clientes nas lojas será desenvolvido.</div><br>
+>><div style="text-align: justify"> Os novos ciclos de trabalho da equipe de cientistas de dados incluirão a variável 'customers' no algoritmo de aprendizado de machine learning visto que tem efeito importante sobre as vendas diárias (Figura 3). Um projeto específico para previsão de quantidade de clientes nas lojas será desenvolvido.</div><br>
 >>
 <p align = "center"><img src="img/sales_customers.jpg" alt="" width="600" height="600"/></p>
 
