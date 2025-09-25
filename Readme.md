@@ -39,7 +39,7 @@
 >>
 >><div style="text-align: justify"> Os novos ciclos de trabalho da equipe de cientistas de dados incluirão a variável 'customers' no algoritmo de aprendizado de machine learning visto que tem efeito importante sobre as vendas diárias. Um projeto específico para previsão de quantidade de clientes nas lojas será desenvolvido.</div><br>
 >>
-<p align = "center"><img src="img/customers_sales.jpg" alt="" width="600" height="600"/></p>
+<p align = "center"><img src="img/sales_customers.jpg" alt="" width="600" height="600"/></p>
 
 # Ferramentas utilizadas
 >>
