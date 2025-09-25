@@ -9,24 +9,42 @@
 
 # Desenvolvimento
 
-<div style="text-align: justify">Este projeto de ciência de dados foi desenvolvido em 10 etapas. A primeira etapa consistiu de conversas com os gerentes das lojas para elaboração das principais hipóteses quanto ao fenômeno analisado (vendas diárias). Um mapa mental mostrando o fenômeno analisado com as principais entidades e seus atributos foi construído. </div><br>
+<div style="text-align: justify">Este projeto de ciência de dados foi desenvolvido em 10 etapas. A primeira etapa consistiu de conversas com os gerentes das lojas para entendimento do problema de negócio e elaboração das principais hipóteses quanto ao fenômeno analisado (vendas diárias) (Figura 1). Um mapa mental mostrando o fenômeno analisado com as principais entidades e seus atributos foi construído. Os resultados apresentados no arquivo projeto_rossmann_final.ipynb fazem parte do primeiro ciclo de trabalho conforme proposto pelo método <em>Cross-Industry Standard Process for Data Science</em> (CRISP-DS) (Figura 2).</div><br>
 
+<p align = "center">Figura 1</p>
 <p align = "center"><img src="img/mind_map.png" alt="" width="600" height="600"/></p>
 
+<p align = "center">Figura 2</p>
+<p align = "center"><img src="img/mind_map.png" alt="" width="600" height="600"/></p>
 
-# Insights 
+<div style="text-align: justify">As vendas diárias das lojas Rossmann não seguem uma distribuição normal porque há períodos em que as vendas são muito altas (Figura 3).</div><br>
+
+<p align = "center"><img src="img/sales_distribution.jpg" alt="" width="600" height="600"/></p>
 
 
+# Principais Insights 
+>>
+>> - A Rossmann deve aumentar a quantidade de lojas com sortimento 'extra', que apresentam a maior mediana de vendas diárias (€ 8088/dia).
+>>
+>> - A Rossmann deve explorar a proximidade de concorrentes visto que esse fator favorece um aumento nas vendas diárias. Isso provavelmente ocorre porque regiões com muitas farmácias atraem mais pessoas.
+>>
+>> - O período máximo de promoção deve ser definido com base na série temporal de vendas de cada loja. Ao considerar todas as lojas, o período máximo de promoção foi 50 semanas.
+>>
+>> - A Rossmann deve aumentar a quantidade de lojas abertas no Natal e na primeira semana do período de Páscoa.
+>>
+>> - A Rossmann deve explorar promoções em períodos com tendência de redução nas vendas como os 10 dias iniciais de cada mês e de terça a sábado.   
+>>
+>>
 # Perspectivas
 >>
->><div style="text-align: justify"> Os resultados dos algoritmos paramétricos de regressão (regressão linear e polinomial com ou sem regularizações) indicaram a necessidade de processamento prévio dos dados antes do ajuste dos modelos. Esse processamento deve considerar a multicolinearidade de variáveis independentes (por exemplo, as variáveis <em>loudness</em> e <em>energy</em>) (seção 8 do notebook ensaio_regressao.ipynb), a existência de valores extremos e a distribuição dos valores. Esse processamento será feito para aperfeiçoar os algoritmos de aprendizado de máquina.</div><br>
+>><div style="text-align: justify"> Os novos ciclos de trabalho da equipe de cientistas de dados incluirão a variável 'customers' no algoritmo de aprendizado de machine learning visto que tem efeito importante sobre as vendas diárias. Um projeto específico para previsão de quantidade de clientes nas lojas será desenvolvido.</div><br>
 >>
->><p align = "center"><img src="img/loudness_energy.png" alt="" width="400" height="400"/></p>
-
+<p align = "center"><img src="img/customers_sales.jpg" alt="" width="600" height="600"/></p>
 
 # Ferramentas utilizadas
 >>
 >> - <em>Python</em> (versão 3.9.21), <em>Scikit-learn</em> e algoritmos de aprendizado de máquina.
+>> - Bibliotecas contidas no arquivo requirements.txt
 >> - WSL para gerenciamento de ambiente virtual.
 >> - Git para versionamento dos arquivos e envio para o repositório Github.
 >> - Jupyter notebook para ajuste dos modelos de aprendizado de máquina
